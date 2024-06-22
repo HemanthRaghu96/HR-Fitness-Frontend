@@ -3,7 +3,7 @@ import { FiMapPin } from "react-icons/fi";
 import { IoPerson } from "react-icons/io5";
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center fixed top-0 w-full  z-10'>
+    <div className='flex justify-between items-center fixed top-0 w-full  z-10 backdrop-blur-3xl'>
       <div>
         <img src='https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png' alt='cult.fit' className='mx-10 w-[100px] h-[70px] object-contain cursor-pointer'/>
       </div>
